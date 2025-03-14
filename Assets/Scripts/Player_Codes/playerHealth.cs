@@ -10,7 +10,7 @@ public class playerHealth : MonoBehaviour
     void Start()
     {
         health = MaxHealth;
-        rb = GetComponent<Rigidbody2D>();
+    
     }
 
     // Update is called once per frame
