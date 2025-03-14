@@ -10,7 +10,6 @@ public class CameraFlip2D : MonoBehaviour
     void Start()
     {
         playerRigidbody = FindObjectOfType<Rigidbody2D>();
-        originalJumpForce = jumpForce;
     }
 
     void Update()
@@ -22,13 +21,16 @@ public class CameraFlip2D : MonoBehaviour
             if (isUpsideDown)
             {
                 playerRigidbody.gravityScale = -1; 
-                jumpForce = -originalJumpForce; 
+                jumpForce = -20;
+                transform.Rotate(0, 180, 0);
+                
                 
             }
             else
             {
                 playerRigidbody.gravityScale = 1; 
-                jumpForce = originalJumpForce; 
+                jumpForce = 20;
+                transform.Rotate(0, 180, 0);
                 
             }
         }
@@ -36,9 +38,6 @@ public class CameraFlip2D : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (playerRigidbody != null)
-        {
-            playerRigidbody.rotation = 0f; // Keep the player's rotation fixed (always facing upright)
-        }
+
     }
 }

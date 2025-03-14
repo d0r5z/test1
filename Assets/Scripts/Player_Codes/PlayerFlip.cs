@@ -15,10 +15,13 @@ public class PlayerFlip : MonoBehaviour
         moveInput = Input.GetAxis("Horizontal");
 
         if (moveInput > 0)
-            spriteRenderer.flipX = false; // Face right
+            spriteRenderer.flipX = false;
         else if (moveInput < 0)
-            spriteRenderer.flipX = true; // Face left
+            spriteRenderer.flipX = true;
 
-        if (Input.GetKeyDown(KeyCode.C)) transform.Rotate(0, 0, 180);
+        if (Input.GetKeyDown(KeyCode.C)) 
+        {
+            
+        };
     }
 }
