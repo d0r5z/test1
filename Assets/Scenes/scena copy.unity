@@ -532,15 +532,36 @@ MonoBehaviour:
   MaxHealth: 50
   health: 0
   healthBar: {fileID: 3906390564176566932}
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+--- !u!114 &1316719817 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9177403588437166606, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+  m_PrefabInstance: {fileID: 9184494475588882668}
+=======
+>>>>>>> Stashed changes
 --- !u!114 &1316719817
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 08a1669ab36b18f9cf7172baa0db102814647d2a
+>>>>>>> Stashed changes
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1316719801}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: 0891044c8380c481097d0c4339fd8c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
+>>>>>>> Stashed changes
   m_Script: {fileID: 11500000, guid: af0c42609953efa48ae5a3535badb0c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -552,6 +573,10 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3790474273284938251, guid: 30cebded88e59c6419abb8198d832945, type: 3}
   m_PrefabInstance: {fileID: 9184494475588882668}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 08a1669ab36b18f9cf7172baa0db102814647d2a
+>>>>>>> Stashed changes
 --- !u!1 &1427083420
 GameObject:
   m_ObjectHideFlags: 0
@@ -828,6 +853,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1316719801}
+    - target: {fileID: 5104285150014955389, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
+      propertyPath: MonsterSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5335143486279264362, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
       propertyPath: m_Constraints
       value: 4
@@ -889,6 +918,22 @@ PrefabInstance:
       value: monster
       objectReference: {fileID: 0}
     - target: {fileID: 6850141156959521404, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8668135414341974304, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
+      propertyPath: cm
+      value: 
+      objectReference: {fileID: 1316719817}
+    - target: {fileID: 8668135414341974304, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
+      propertyPath: PushSpeed
+      value: 20
+      objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
@@ -896,6 +941,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 08a1669ab36b18f9cf7172baa0db102814647d2a
+>>>>>>> Stashed changes
     - target: {fileID: 8668135414341974304, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
       propertyPath: playerHealth
       value: 
@@ -1494,6 +1543,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5688629728697007822, guid: 30cebded88e59c6419abb8198d832945, type: 3}
       propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177403588437166606, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: Speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177403588437166606, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: PushTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177403588437166606, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: PushSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177403588437166606, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: PushCounter
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177403588437166606, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: PushFromLeft
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9177403588437166606, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: PushFromRight
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
