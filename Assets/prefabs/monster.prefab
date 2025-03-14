@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5672601864840901810}
   - component: {fileID: 3686634889471755570}
   - component: {fileID: 4337714710989365596}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: MonsterHealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.01, y: 0.81}
-  m_SizeDelta: {x: 1.8375, y: 0.3531}
+  m_AnchoredPosition: {x: 0, y: 0.8}
+  m_SizeDelta: {x: 1.7, y: 0.3531}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3686634889471755570
 CanvasRenderer:
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 489639876967131068, guid: 6dfde3febfda34ce6a0bbaf767afb533, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -90,9 +90,9 @@ GameObject:
   - component: {fileID: 5501386966458916883}
   - component: {fileID: 8668135414341974304}
   - component: {fileID: 5104285150014955389}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: monster
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -157,7 +157,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -240,7 +240,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &5501386966458916883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,7 +297,7 @@ GameObject:
   - component: {fileID: 6570307075140605558}
   - component: {fileID: 4380435581547224501}
   - component: {fileID: 5136169131940869732}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
