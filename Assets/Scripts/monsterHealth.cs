@@ -1,16 +1,14 @@
 using UnityEngine;
 
-public class playerHealth : MonoBehaviour
+public class monsterHealth : MonoBehaviour
 {
-
-    public int MaxHealth = 10;
-    public int health;
+    public int MaxMonsterHealth = 10;
+    public int Monsterhealth;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        health = MaxHealth;
-        rb = GetComponent<Rigidbody2D>();
+        Monsterhealth = MaxMonsterHealth;
     }
 
     // Update is called once per frame
@@ -19,13 +17,13 @@ public class playerHealth : MonoBehaviour
         
     }
 
-
-public void TakeDamage(int damage) 
+public void TakeMonsterDamage(int damage) 
     {
-        health -= damage;
+        Monsterhealth -= damage;
         if(health <= 0)
         {
             Destroy(gameObject);
         }
     }
+
 }
