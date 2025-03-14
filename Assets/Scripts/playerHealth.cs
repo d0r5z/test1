@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class playerHealth : MonoBehaviour
 {
-
+    private Rigidbody2D rb;
     public int MaxHealth = 10;
     public int health;
 
