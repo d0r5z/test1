@@ -23,7 +23,6 @@ public class monster : MonoBehaviour
         if(Distance < 10)
         {
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, MonsterSpeed * Time.deltaTime);
-            transform.rotation = Quaternion.Euler(Vector3.forward * angle);
         }
     }
 }
