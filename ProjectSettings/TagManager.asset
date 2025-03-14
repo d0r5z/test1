@@ -6,6 +6,7 @@ TagManager:
   tags:
   - note
   - coins
+  - Enemy
   layers:
   - Default
   - TransparentFX
