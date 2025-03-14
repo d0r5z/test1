@@ -6,7 +6,7 @@ public class playerHealth : MonoBehaviour
     public int MaxHealth = 10;
     public int health;
     private Rigidbody2D rb;
-    [SerializeField] public float PushForce;
+    [SerializeField] private float PushForce;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
