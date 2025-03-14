@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4669744170235800162
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3790474273284938251, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790474273284938251, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790474273284938251, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790474273284938251, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790474273284938251, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790474273284938251, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790474273284938251, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790474273284938251, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790474273284938251, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790474273284938251, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4908910884567873699, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: m_Name
+      value: Reversed_Player Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475699607382825452, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475699607382825452, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: m_GravityScale
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688629728697007822, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: m_Size.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688629728697007822, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6121558436111458536, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: JumpForce
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7212267733045562432, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      propertyPath: m_Name
+      value: ReversedChecker
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4908910884567873699, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3912123194240261278}
+  m_SourcePrefab: {fileID: 100100000, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+--- !u!1 &347260837211951809 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4908910884567873699, guid: 30cebded88e59c6419abb8198d832945, type: 3}
+  m_PrefabInstance: {fileID: 4669744170235800162}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3912123194240261278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347260837211951809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d161f3e1df0477fafa2414de7aaa37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CC: {fileID: 0}
