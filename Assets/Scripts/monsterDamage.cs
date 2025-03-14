@@ -13,5 +13,5 @@ private void OnCollisionEnter2D(Collision2D collision)
         playerHealth.TakeDamage(damage);
     }
 }
-
+ 
 }
