@@ -3,9 +3,8 @@ using UnityEngine.UI;
 
 public class playerHealth : MonoBehaviour
 {
-    private Rigidbody2D rb;
-    public int MaxHealth = 10;
-    public int health;
+    public float MaxHealth = 10;
+    public float health;
     public Image healthBar;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -18,11 +17,11 @@ public class playerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        healthBar.fillAmount = Mathf.Clamp(health / MaxHealth, 0, 1);
+        healthBar.fillAmount = (health / MaxHealth);
     }
 
 
-public void TakeDamage(int damage) 
+public void TakeDamage(float damage) 
     {
         health -= damage;
         if(health <= 0)
