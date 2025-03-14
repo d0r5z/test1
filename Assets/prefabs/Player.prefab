@@ -15,10 +15,13 @@ GameObject:
   - component: {fileID: 6121558436111458536}
   - component: {fileID: 9177403588437166606}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - component: {fileID: 5726037498424923176}
   - component: {fileID: 139248411532503167}
   - component: {fileID: 3505710905374016790}
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
   - component: {fileID: -8263039989470791967}
   - component: {fileID: 2378336956428344210}
@@ -28,6 +31,9 @@ GameObject:
   - component: {fileID: 139248411532503167}
   - component: {fileID: 3505710905374016790}
 >>>>>>> a2f88806394f3a9fac462c166eaf5988d5db3801
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Player
@@ -153,13 +159,19 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Size: {x: 1, y: 0.8}
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
   m_Size: {x: 5.46801, y: 7.043352}
 =======
   m_Size: {x: 1, y: 0.8}
 >>>>>>> a2f88806394f3a9fac462c166eaf5988d5db3801
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_EdgeRadius: 0
 --- !u!50 &5475699607382825452
@@ -220,13 +232,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 10
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!114 &5726037498424923176
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
 --- !u!114 &-8263039989470791967
 =======
 --- !u!114 &5726037498424923176
 >>>>>>> a2f88806394f3a9fac462c166eaf5988d5db3801
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,13 +255,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 55efc70f804b64c57a8581c1330a1ff8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 10
 --- !u!114 &2378336956428344210
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   m_Script: {fileID: 11500000, guid: b2d161f3e1df0477fafa2414de7aaa37, type: 3}
@@ -252,6 +276,10 @@ MonoBehaviour:
   CC: {fileID: 0}
 --- !u!114 &139248411532503167
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> a2f88806394f3a9fac462c166eaf5988d5db3801
+>>>>>>> Stashed changes
 =======
 >>>>>>> a2f88806394f3a9fac462c166eaf5988d5db3801
 >>>>>>> Stashed changes
@@ -264,12 +292,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: fe09d44f81e554556b6dabfcaaf49784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &6282071657419588665
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   m_Script: {fileID: 11500000, guid: 78eeeb59fb941974798dac70d5ba2d99, type: 3}
@@ -280,6 +314,10 @@ MonoBehaviour:
   healthBar: {fileID: 0}
 --- !u!114 &3505710905374016790
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> a2f88806394f3a9fac462c166eaf5988d5db3801
+>>>>>>> Stashed changes
 =======
 >>>>>>> a2f88806394f3a9fac462c166eaf5988d5db3801
 >>>>>>> Stashed changes
@@ -292,11 +330,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 5f5bb498d51354af892f6d91dfe151b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   m_Script: {fileID: 11500000, guid: af0c42609953efa48ae5a3535badb0c3, type: 3}
@@ -306,6 +350,10 @@ MonoBehaviour:
   shotPoint: {fileID: 6900718875939494170}
   startTimeBtwShots: 0.25
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> a2f88806394f3a9fac462c166eaf5988d5db3801
+>>>>>>> Stashed changes
 =======
 >>>>>>> a2f88806394f3a9fac462c166eaf5988d5db3801
 >>>>>>> Stashed changes
@@ -366,6 +414,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.467, y: -0.092, z: 0}
+<<<<<<< Updated upstream
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -397,6 +446,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.467, y: -0.092, z: 0}
+=======
+>>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
