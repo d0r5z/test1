@@ -14,9 +14,21 @@ GameObject:
   - component: {fileID: 5475699607382825452}
   - component: {fileID: 6121558436111458536}
   - component: {fileID: 9177403588437166606}
+<<<<<<< Updated upstream
   - component: {fileID: 5726037498424923176}
   - component: {fileID: 139248411532503167}
   - component: {fileID: 3505710905374016790}
+=======
+<<<<<<< HEAD
+  - component: {fileID: -8263039989470791967}
+  - component: {fileID: 2378336956428344210}
+  - component: {fileID: 6282071657419588665}
+=======
+  - component: {fileID: 5726037498424923176}
+  - component: {fileID: 139248411532503167}
+  - component: {fileID: 3505710905374016790}
+>>>>>>> a2f88806394f3a9fac462c166eaf5988d5db3801
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -34,7 +46,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7424271094039845100}
@@ -85,8 +97,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: -7742915892683462940, guid: 48fbd7e2fb6e746cf8f013c9c5b43d93, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -130,17 +142,25 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.9810486, y: -0.48213387}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 8.81, y: 8.6}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+<<<<<<< Updated upstream
   m_Size: {x: 1, y: 0.8}
+=======
+<<<<<<< HEAD
+  m_Size: {x: 5.46801, y: 7.043352}
+=======
+  m_Size: {x: 1, y: 0.8}
+>>>>>>> a2f88806394f3a9fac462c166eaf5988d5db3801
+>>>>>>> Stashed changes
   m_EdgeRadius: 0
 --- !u!50 &5475699607382825452
 Rigidbody2D:
@@ -199,7 +219,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 10
+<<<<<<< Updated upstream
 --- !u!114 &5726037498424923176
+=======
+<<<<<<< HEAD
+--- !u!114 &-8263039989470791967
+=======
+--- !u!114 &5726037498424923176
+>>>>>>> a2f88806394f3a9fac462c166eaf5988d5db3801
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -208,11 +236,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 4908910884567873699}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: 55efc70f804b64c57a8581c1330a1ff8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 10
+--- !u!114 &2378336956428344210
+=======
+>>>>>>> Stashed changes
   m_Script: {fileID: 11500000, guid: b2d161f3e1df0477fafa2414de7aaa37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CC: {fileID: 0}
 --- !u!114 &139248411532503167
+<<<<<<< Updated upstream
+=======
+>>>>>>> a2f88806394f3a9fac462c166eaf5988d5db3801
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -221,6 +263,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 4908910884567873699}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: fe09d44f81e554556b6dabfcaaf49784, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6282071657419588665
+=======
+>>>>>>> Stashed changes
   m_Script: {fileID: 11500000, guid: 78eeeb59fb941974798dac70d5ba2d99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -228,6 +279,10 @@ MonoBehaviour:
   health: 0
   healthBar: {fileID: 0}
 --- !u!114 &3505710905374016790
+<<<<<<< Updated upstream
+=======
+>>>>>>> a2f88806394f3a9fac462c166eaf5988d5db3801
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -236,12 +291,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 4908910884567873699}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: 5f5bb498d51354af892f6d91dfe151b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
+>>>>>>> Stashed changes
   m_Script: {fileID: 11500000, guid: af0c42609953efa48ae5a3535badb0c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 8997910734432015845, guid: 379e4e4f5f02bfb4398805cf4d7b9314, type: 3}
   shotPoint: {fileID: 6900718875939494170}
   startTimeBtwShots: 0.25
+<<<<<<< Updated upstream
+=======
+>>>>>>> a2f88806394f3a9fac462c166eaf5988d5db3801
+>>>>>>> Stashed changes
 --- !u!1 &7212267733045562432
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,7 +334,38 @@ Transform:
   m_GameObject: {fileID: 7212267733045562432}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.479, z: 0}
+  m_LocalPosition: {x: 0.87, y: -4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3790474273284938251}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7223608445418571827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6900718875939494170}
+  m_Layer: 0
+  m_Name: ShotPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6900718875939494170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7223608445418571827}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.467, y: -0.092, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
