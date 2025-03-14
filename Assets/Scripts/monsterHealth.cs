@@ -1,9 +1,11 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class monsterHealth : MonoBehaviour
 {
     public int MaxMonsterHealth = 10;
     public int Monsterhealth;
+    public Image MonsterhealthBar;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -14,7 +16,7 @@ public class monsterHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        MonsterhealthBar.fillAmount = Mathf.Clamp(Monsterhealth / MaxMonsterHealth, 0, 1);
     }
 
 public void TakeMonsterDamage(int damage) 
