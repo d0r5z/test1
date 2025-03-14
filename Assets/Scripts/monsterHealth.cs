@@ -20,7 +20,7 @@ public class monsterHealth : MonoBehaviour
 public void TakeMonsterDamage(int damage) 
     {
         Monsterhealth -= damage;
-        if(health <= 0)
+        if(Monsterhealth <= 0)
         {
             Destroy(gameObject);
         }
