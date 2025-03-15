@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bos_ziemniaho5_0: -1662992584804181593
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
