@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 7528674439982231437}
   - component: {fileID: 8879533248024552802}
   - component: {fileID: 8830919071329676337}
+  - component: {fileID: 1312645687868867414}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Player
@@ -247,6 +248,28 @@ MonoBehaviour:
   projectile: {fileID: 8997910734432015845, guid: 379e4e4f5f02bfb4398805cf4d7b9314, type: 3}
   shotPoint: {fileID: 1958870229701135144}
   startTimeBtwShots: 0.25
+--- !u!95 &1312645687868867414
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059236852309732457}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b0c996f88f3174059a8eb0ba1c95b114, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5098814073259516141
 GameObject:
   m_ObjectHideFlags: 0
