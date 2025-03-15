@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1434ffa5ad46c440d902311a694c43c1
+guid: e59b682b9183a493b92d2bf554392167
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8944218011814987079
-    second: kruk_jakis_2_0
+      213: -8220336777542508620
+    second: LEVEL_SCREEN_6_DONE_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kruk_jakis_2_0
+      name: LEVEL_SCREEN_6_DONE_0
       rect:
         serializedVersion: 2
-        x: 80
-        y: 146
-        width: 881
-        height: 829
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9bafd145b11cfd380800000000000000
-      internalID: -8944218011814987079
+      spriteID: 4bfdf78014f7bed80800000000000000
+      internalID: -8220336777542508620
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      kruk_jakis_2_0: -8944218011814987079
+      LEVEL_SCREEN_6_DONE_0: -8220336777542508620
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
