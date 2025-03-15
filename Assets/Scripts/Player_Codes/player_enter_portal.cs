@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CameraRotation : MonoBehaviour
+public class player_enter_portal : MonoBehaviour
 {
     public float rotationSpeed = 50f;
     public float flipSpeed = 2f;
@@ -8,16 +8,13 @@ public class CameraRotation : MonoBehaviour
     private bool isUpsideDown = false;
     private bool isFlipping = false;
     private Quaternion targetRotation;
-
     void Start()
     {
         targetRotation = transform.rotation;
     }
 
-    void Update()
-    {
-
-        if (Input.GetKeyDown(KeyCode.C) && !isFlipping)
+    private void OnTriggerEnter2D(Collider2D other)
+    {   if(other.gameObject.CompareTag("Portal"))
         {
             isUpsideDown = !isUpsideDown;
             isFlipping = true;
