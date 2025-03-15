@@ -18,7 +18,7 @@ public class Pocisk : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.right, ProjectileDistance, whatIsSolid);
+        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.up, ProjectileDistance, whatIsSolid);
         if (hitInfo.collider != null)
         {
             if(hitInfo.collider.CompareTag("Enemy"))
@@ -29,7 +29,7 @@ public class Pocisk : MonoBehaviour
             DestroyProjectile();
         }
 
-        transform.Translate(transform.right * speed * Time.deltaTime);
+        transform.Translate(transform.up * speed * Time.deltaTime);
     }
 
     void DestroyProjectile()

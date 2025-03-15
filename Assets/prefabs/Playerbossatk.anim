@@ -22,10 +22,8 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: -7640233679728922223, guid: f6d0e506ab50d4907982bd7697a5b9b4, type: 3}
-    - time: 0.16666667
+    - time: 0.083333336
       value: {fileID: -287297265378377393, guid: c8918e121913c4f55a886d1351ddc98f, type: 3}
-    - time: 0.33333334
-      value: {fileID: -7640233679728922223, guid: f6d0e506ab50d4907982bd7697a5b9b4, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,13 +48,12 @@ AnimationClip:
     pptrCurveMapping:
     - {fileID: -7640233679728922223, guid: f6d0e506ab50d4907982bd7697a5b9b4, type: 3}
     - {fileID: -287297265378377393, guid: c8918e121913c4f55a886d1351ddc98f, type: 3}
-    - {fileID: -7640233679728922223, guid: f6d0e506ab50d4907982bd7697a5b9b4, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.35000002
+    m_StopTime: 0.16666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -75,4 +72,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.16666667
+    functionName: StopShoot
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
