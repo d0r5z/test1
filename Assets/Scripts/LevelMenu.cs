@@ -4,30 +4,30 @@ public class LevelMenu : MonoBehaviour
 {
     public void Scene1()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
     public void Scene2()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(6);
     }
     public void Scene3()
     {
-        SceneManager.LoadScene(8);
+        SceneManager.LoadScene(9);
     }
     public void Scene4()
     {
-        SceneManager.LoadScene(11);
+        SceneManager.LoadScene(12);
     }
     public void Scene5()
     {
-        SceneManager.LoadScene(14);
+        SceneManager.LoadScene(15);
     }
     public void Scene6()
     {
-        SceneManager.LoadScene(17);
+        SceneManager.LoadScene(18);
     }
     public void Scene7()
     {
-        SceneManager.LoadScene(20);
+        SceneManager.LoadScene(21);
     }
 }

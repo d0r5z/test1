@@ -232,6 +232,7 @@ GameObject:
   - component: {fileID: 508094044}
   - component: {fileID: 508094046}
   - component: {fileID: 508094045}
+  - component: {fileID: 508094047}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -297,6 +298,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508094043}
   m_CullTransparentMesh: 1
+--- !u!114 &508094047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508094043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76b3c9a3161b8422da695d3744714672, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneName: scene
+  sceneDuration: 10
 --- !u!1 &789547309
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,8 +587,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Long ago, there lived a wizard.
 
-    One day, a wicked witch decided
-    to put a spell on him, turning him into a crow - a reflection of his soul.
+    One day, a wicked witch decided to
+    put a spell on him, turning him into a crow - a reflection of his soul.
 
     The
     witch also brought a cursed mirror to trap him inside it forever.
