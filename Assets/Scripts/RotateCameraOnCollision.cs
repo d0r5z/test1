@@ -3,7 +3,7 @@ using UnityEngine;
 public class RotateCameraOnCollision : MonoBehaviour
 {
     public Camera mainCamera;
-    private bool portalActivated = false;
+    public bool portalActivated = false;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -13,7 +13,6 @@ public class RotateCameraOnCollision : MonoBehaviour
                 mainCamera.transform.Rotate(0, 0, 180);
             }
             portalActivated = true;
-
             gameObject.SetActive(false);
         }
     }

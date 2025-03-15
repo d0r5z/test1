@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3501053540475728261}
   - component: {fileID: 1406688760767933422}
   - component: {fileID: 1612596245084568877}
+  - component: {fileID: 4011197498296493063}
   m_Layer: 10
   m_Name: interlevel_portal
   m_TagString: Untagged
@@ -118,7 +119,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -132,5 +133,18 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.2962338, y: 1}
+  m_Size: {x: 2.78, y: 6.06}
   m_EdgeRadius: 0
+--- !u!114 &4011197498296493063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4561292715454247947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cb832233cb554b28bada260b3236f8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roc: {fileID: 0}

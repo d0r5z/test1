@@ -13,7 +13,7 @@ public class LavaKilling : MonoBehaviour
     void Update()
     {
         if(Physics2D.OverlapCircle(Checker.transform.position, 0.2f, Lava))
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
     }
 }

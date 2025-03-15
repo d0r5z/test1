@@ -1,16 +1,12 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PortalDetectingPlayer : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public RotateCameraOnCollision roc;
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (roc.portalActivated == true)
+        if (other.gameObject.CompareTag("Player"))
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 }
