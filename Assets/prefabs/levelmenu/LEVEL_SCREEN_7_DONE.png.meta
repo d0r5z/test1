@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 338363559247e5a4a984e5e7bf41a378
+guid: 442f0807057c24733b6f2afba0b364b4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8120070998135296616
-    second: healthbar 1_0
+      213: -3738493117910760938
+    second: LEVEL_SCREEN_7_DONE_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: healthbar 1_0
+      name: LEVEL_SCREEN_7_DONE_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 508
-        width: 1143
-        height: 263
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89da13df276bf4f80800000000000000
-      internalID: -8120070998135296616
+      spriteID: 612cfaf01543e1cc0800000000000000
+      internalID: -3738493117910760938
       vertices: []
       indices: 
       edges: []
@@ -147,12 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< Updated upstream
-    nameFileIdTable:
-      healthbar 1_0: -8120070998135296616
-=======
     nameFileIdTable: {}
->>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
