@@ -8,14 +8,12 @@ public class weapon : MonoBehaviour
     public GameObject projectile;
     public Transform shotPoint;
     private float timeBtwShots;
-    private Animator _animator;
     private SpriteRenderer spriteRenderer;
     private float moveInput;
     public float startTimeBtwShots;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        _animator = GetComponent<Animator>();
         
 
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -34,7 +32,6 @@ public class weapon : MonoBehaviour
             {
                 Instantiate(projectile, shotPoint.position, transform.rotation);
                 timeBtwShots = startTimeBtwShots;
-                _animator.SetBool("IsShooting", true);
             }
         }
         else{
@@ -48,8 +45,5 @@ public class weapon : MonoBehaviour
             spriteRenderer.flipX = true;
         
     }
-    public void StopShoot()
-    {
-        _animator.SetBool("IsShooting", false);
-    }
+   
 }
