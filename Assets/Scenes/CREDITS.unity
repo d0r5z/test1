@@ -658,7 +658,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "MURDER OF REFLECTIONS \r\nDzi\u0119kujemy za zagranie w nasz\u0105 gr\u0119!\r\nProjekt
-    zosta\u0142 wykonany przez grup\u0119 Czw\xF3rka \u03C0k w ramach 9. Hackathonu
+    zosta\u0142 wykonany przez grup\u0119 Czw\xF3rka \u03C0k \nw ramach 9. Hackathonu
     Wseicraft 2025"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
