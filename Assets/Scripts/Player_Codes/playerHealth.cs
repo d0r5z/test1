@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class playerHealth : MonoBehaviour
 {
+    
     public float MaxHealth = 10;
     public float health;
     public Image healthBar;
@@ -17,7 +18,7 @@ public class playerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        healthBar.fillAmount = (health / MaxHealth);
+        healthBar.fillAmount = Mathf.Clamp(health / MaxHealth, 0, 1);
     }
 
 
