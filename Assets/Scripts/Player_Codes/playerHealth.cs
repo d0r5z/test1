@@ -27,7 +27,7 @@ public void TakeDamage(float damage)
         health -= damage;
         if(health <= 0)
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1)
         }
     }
 }
