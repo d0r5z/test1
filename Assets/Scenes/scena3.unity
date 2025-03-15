@@ -1026,6 +1026,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4011197498296493063, guid: 4e15b69c3347947acad56594b993de59, type: 3}
+      propertyPath: roc
+      value: 
+      objectReference: {fileID: 1640283382}
     - target: {fileID: 4561292715454247947, guid: 4e15b69c3347947acad56594b993de59, type: 3}
       propertyPath: m_Name
       value: interlevel_portal
@@ -1161,6 +1165,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b39179b4f6e404532ba75052a17c2c8d, type: 3}
+--- !u!114 &1640283382 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8029819225086104950, guid: b39179b4f6e404532ba75052a17c2c8d, type: 3}
+  m_PrefabInstance: {fileID: 1640283381}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257447931abd6423fb0624d157246cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1692508726
 GameObject:
   m_ObjectHideFlags: 0
