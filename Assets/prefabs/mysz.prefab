@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 643062346504730696}
   - component: {fileID: 3854490024535758326}
   - component: {fileID: 3662377645585386170}
+  - component: {fileID: -5046584641211588235}
   m_Layer: 11
   m_Name: mysz
   m_TagString: Enemy
@@ -464,3 +465,25 @@ MonoBehaviour:
   player: {fileID: 0}
   MonsterSpeed: 5
   Distance: 3
+--- !u!95 &-5046584641211588235
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8496169659019108462}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4cb26889cdfa04379846f4f3e69a8fda, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

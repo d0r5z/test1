@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 8762605865482000922}
   - component: {fileID: 3977186323992033793}
   - component: {fileID: 2202354395013288869}
+  - component: {fileID: -6843603652060807649}
   m_Layer: 11
   m_Name: boss
   m_TagString: Enemy
@@ -286,6 +287,28 @@ MonoBehaviour:
   player: {fileID: 0}
   MonsterSpeed: 5
   Distance: 3
+--- !u!95 &-6843603652060807649
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4266442272842320726}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4d2a702601e724865976dbc52af5e23a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4910175360674784269
 GameObject:
   m_ObjectHideFlags: 0

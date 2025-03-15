@@ -3,13 +3,14 @@ using UnityEngine;
 public class monster : MonoBehaviour
 {
     public GameObject player;
+    private Animator AC_monster;
     [SerializeField] public float MonsterSpeed;
     [SerializeField] private float Distance;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        AC_monster = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -22,7 +23,12 @@ public class monster : MonoBehaviour
 
         if(Distance < 10)
         {
+            AC_monster.SetBool("IsMonsterWalking", true);
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, MonsterSpeed * Time.deltaTime);
+        }
+        else
+        {
+            AC_monster.SetBool("IsMonsterWalking", false);
         }
     }
 }

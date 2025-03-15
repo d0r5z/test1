@@ -165,6 +165,7 @@ GameObject:
   - component: {fileID: 5501386966458916883}
   - component: {fileID: 8668135414341974304}
   - component: {fileID: 5104285150014955389}
+  - component: {fileID: 1541230100975798438}
   m_Layer: 11
   m_Name: monster
   m_TagString: Enemy
@@ -361,6 +362,28 @@ MonoBehaviour:
   player: {fileID: 0}
   MonsterSpeed: 5
   Distance: 3
+--- !u!95 &1541230100975798438
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6850141156959521404}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 44adb166734b6411884579095be863f9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &9052386053771669642
 GameObject:
   m_ObjectHideFlags: 0
