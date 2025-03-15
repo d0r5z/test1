@@ -573,12 +573,13 @@ MonoBehaviour:
   m_text: 'Long ago, there lived a wizard.
 
     One day, a wicked witch decided
-    to put a spell on him, turning him into a crow.
+    to put a spell on him, turning him into a crow - a reflection of his soul.
 
-    The witch also brought a
-    cursed mirror to trap him inside it forever.
+    The
+    witch also brought a cursed mirror to trap him inside it forever.
 
-    Help the wizard leave the mirror!'
+    Help the
+    wizard leave the mirror!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
