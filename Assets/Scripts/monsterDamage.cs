@@ -23,6 +23,7 @@ private void OnCollisionEnter2D(Collision2D collision)
         if(collision.transform.position.x < transform.position.x)
         {
             cm.PushFromRight = true;
+            playerHealth.TakeDamage(damage);
         }
         if(collision.transform.position.x > transform.position.x)
         {
