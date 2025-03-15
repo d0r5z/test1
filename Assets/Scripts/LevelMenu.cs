@@ -30,4 +30,8 @@ public class LevelMenu : MonoBehaviour
     {
         SceneManager.LoadScene(20);
     }
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
