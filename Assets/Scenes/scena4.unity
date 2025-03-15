@@ -1120,14 +1120,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4337714710989365596, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8120070998135296616, guid: 338363559247e5a4a984e5e7bf41a378, type: 3}
     - target: {fileID: 5104285150014955389, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 801006528}
-    - target: {fileID: 5104285150014955389, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
-      propertyPath: Distance
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 6643375621337461899, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.48
