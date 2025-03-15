@@ -644,6 +644,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 4011197498296493063, guid: 4e15b69c3347947acad56594b993de59, type: 3}
+      propertyPath: roc
+      value: 
+      objectReference: {fileID: 575406955}
     - target: {fileID: 4561292715454247947, guid: 4e15b69c3347947acad56594b993de59, type: 3}
       propertyPath: m_Name
       value: interlevel_portal
@@ -806,6 +810,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1492436496}
   m_SourcePrefab: {fileID: 100100000, guid: bd4ca5addb43d4af489a37f105130d59, type: 3}
+--- !u!114 &575406955 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8029819225086104950, guid: b39179b4f6e404532ba75052a17c2c8d, type: 3}
+  m_PrefabInstance: {fileID: 1134627636}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257447931abd6423fb0624d157246cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &591255927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1045,6 +1060,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: monster (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8529963577673398184, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999993
+      objectReference: {fileID: 0}
+    - target: {fileID: 8529963577673398184, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8529963577673398184, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8529963577673398184, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0012217353
+      objectReference: {fileID: 0}
+    - target: {fileID: 8529963577673398184, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.8599987
+      objectReference: {fileID: 0}
+    - target: {fileID: 8529963577673398184, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.15000066
+      objectReference: {fileID: 0}
+    - target: {fileID: 8529963577673398184, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1200,6 +1243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lustroktoreobracakamere
       objectReference: {fileID: 0}
+    - target: {fileID: 8029819225086104950, guid: b39179b4f6e404532ba75052a17c2c8d, type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 1600953306}
     - target: {fileID: 8188359169123542394, guid: b39179b4f6e404532ba75052a17c2c8d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.98
