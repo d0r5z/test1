@@ -139,8 +139,8 @@ Transform:
   m_GameObject: {fileID: 2920508154693853212}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.99, y: -1.055, z: -0.5630473}
-  m_LocalScale: {x: 0.062640004, y: 0.05718, z: 0.3}
+  m_LocalPosition: {x: 0.043, y: 0.05, z: -0.5630473}
+  m_LocalScale: {x: 0.9590564, y: 0.9731106, z: 0.3}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5216091458588572746}
@@ -280,5 +280,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbf76b57cdfa0401dadbac7d5e43e00f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ph: {fileID: 0}
   CoinsAmount: 0
-  noteText: {fileID: 0}
