@@ -353,6 +353,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f118d8072d114c648192cbe6e7d2aa4, type: 3}
+--- !u!114 &697436119 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5577776406790280007, guid: 74e499dc1073948f1bb88ae42c194e7e, type: 3}
+  m_PrefabInstance: {fileID: 8385041595871367994}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf76b57cdfa0401dadbac7d5e43e00f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &801006527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -457,6 +468,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1059236852309732457, guid: bd4ca5addb43d4af489a37f105130d59, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 801006539}
     - targetCorrespondingSourceObject: {fileID: 5098814073259516141, guid: bd4ca5addb43d4af489a37f105130d59, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1052679951}
@@ -488,6 +502,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0891044c8380c481097d0c4339fd8c4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &801006539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801006528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d161f3e1df0477fafa2414de7aaa37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CC: {fileID: 697436119}
 --- !u!1001 &855944023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1812,22 +1839,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2748864889203702319, guid: 74e499dc1073948f1bb88ae42c194e7e, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.062640004
-      objectReference: {fileID: 0}
-    - target: {fileID: 2748864889203702319, guid: 74e499dc1073948f1bb88ae42c194e7e, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.05718
-      objectReference: {fileID: 0}
-    - target: {fileID: 2748864889203702319, guid: 74e499dc1073948f1bb88ae42c194e7e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 2748864889203702319, guid: 74e499dc1073948f1bb88ae42c194e7e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.055
-      objectReference: {fileID: 0}
     - target: {fileID: 2847633496339473489, guid: 74e499dc1073948f1bb88ae42c194e7e, type: 3}
       propertyPath: m_Name
       value: Coins
@@ -1872,30 +1883,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6162446323851654677, guid: 74e499dc1073948f1bb88ae42c194e7e, type: 3}
-      propertyPath: m_Radius
-      value: 4.14897
-      objectReference: {fileID: 0}
-    - target: {fileID: 6162446323851654677, guid: 74e499dc1073948f1bb88ae42c194e7e, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 6162446323851654677, guid: 74e499dc1073948f1bb88ae42c194e7e, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.48
-      objectReference: {fileID: 0}
-    - target: {fileID: 7908555950650929240, guid: 74e499dc1073948f1bb88ae42c194e7e, type: 3}
-      propertyPath: m_Sprite
+    - target: {fileID: 5577776406790280007, guid: 74e499dc1073948f1bb88ae42c194e7e, type: 3}
+      propertyPath: ph
       value: 
-      objectReference: {fileID: 6816652141836296167, guid: f05de96cd57de8e4d8b5ae35211a816b, type: 3}
-    - target: {fileID: 7908555950650929240, guid: 74e499dc1073948f1bb88ae42c194e7e, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7908555950650929240, guid: 74e499dc1073948f1bb88ae42c194e7e, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 801006529}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
