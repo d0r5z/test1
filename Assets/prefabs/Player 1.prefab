@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 8830919071329676337}
   m_Layer: 0
   m_Name: Player 1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -198,8 +198,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0891044c8380c481097d0c4339fd8c4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PushSpeed: 0
-  PushTime: 0
+  PushSpeed: 10
+  PushTime: 1
   PushCounter: 0
   PushFromRight: 0
   PushFromLeft: 0
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78eeeb59fb941974798dac70d5ba2d99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 10
+  MaxHealth: 50
   health: 0
   healthBar: {fileID: 0}
 --- !u!114 &8830919071329676337
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 8997910734432015845, guid: 379e4e4f5f02bfb4398805cf4d7b9314, type: 3}
   shotPoint: {fileID: 1958870229701135144}
-  startTimeBtwShots: 0
+  startTimeBtwShots: 0.25
 --- !u!1 &5098814073259516141
 GameObject:
   m_ObjectHideFlags: 0
