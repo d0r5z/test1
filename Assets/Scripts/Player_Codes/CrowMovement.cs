@@ -9,10 +9,14 @@ public class CrowMovement : MonoBehaviour
     public bool PushFromLeft;
     public float Direction;
     private Rigidbody2D rb;
+    private Animator _animator;
     [SerializeField] private float Speed;
 
     void Start()
-    {rb = GetComponent<Rigidbody2D>();}
+    {
+        rb = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
+    }
     void FixedUpdate()
     {
         Direction = Input.GetAxis("Horizontal");
@@ -33,6 +37,7 @@ public class CrowMovement : MonoBehaviour
             }
             PushCounter -= Time.deltaTime;
         }
+        _animator.SetBool("IsWalking", Direction != 0);
 
     }
     private void OnCollisionEnter2D(Collision2D collision)
