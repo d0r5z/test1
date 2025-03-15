@@ -1,5 +1,5 @@
 using UnityEngine;
-using TMPro;
+
 public class CoinCollection : MonoBehaviour
 {
     public playerHealth ph;
@@ -8,8 +8,10 @@ public class CoinCollection : MonoBehaviour
 
     private void Update()
     {
-        ph.health += 5 * CoinsAmount;
-        CoinsAmount = 0;
+        if(CoinsAmount != 0){
+            ph.health += 5 * CoinsAmount;
+            CoinsAmount = 0;
+        }
     }
 
 }

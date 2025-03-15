@@ -7,8 +7,9 @@ public class PlayerCoinsMech : MonoBehaviour
     {
         if(other.gameObject.CompareTag("coins"))
         {
-            CC.CoinsAmount = CC.CoinsAmount + 1;
+            Debug.Log("test");
             Destroy(other.gameObject);
+            CC.CoinsAmount = CC.CoinsAmount + 1;
         }
     }
 }
