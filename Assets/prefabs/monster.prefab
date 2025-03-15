@@ -345,7 +345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cm: {fileID: 0}
-  damage: 5
+  damage: 3
   playerHealth: {fileID: 0}
 --- !u!114 &5104285150014955389
 MonoBehaviour:
