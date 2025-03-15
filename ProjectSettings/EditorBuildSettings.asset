@@ -15,8 +15,35 @@ EditorBuildSettings:
     path: Assets/Scenes/DEATH.unity
     guid: 3068656ed6dc7462baada65da7735538
   - enabled: 1
+    path: Assets/Scenes/LevelMenu/bl1.unity
+    guid: 3b30caf02ae304a04b2204df616d3486
+  - enabled: 1
     path: Assets/Scenes/scena.unity
     guid: 47e426b2e5d5fff428dbd1396b1a53db
+  - enabled: 1
+    path: Assets/Scenes/LevelMenu/bl2.unity
+    guid: 99e9aca81e1054ab8b0b88d6bb7d18b8
+  - enabled: 1
+    path: Assets/Scenes/scena2.unity
+    guid: 8e0e28cbcf88d428ca6de09772be83f8
+  - enabled: 1
+    path: Assets/Scenes/LevelMenu/bl3.unity
+    guid: 5e856178c045f488cafd221717ac89ec
+  - enabled: 1
+    path: Assets/Scenes/scena3.unity
+    guid: 4f9c79ae1d9ae475ca0806c8b6efb77f
+  - enabled: 1
+    path: Assets/Scenes/LevelMenu/bl4.unity
+    guid: 9c7277b2764f04458b7deffa1ab8f49d
+  - enabled: 1
+    path: Assets/Scenes/LevelMenu/bl5.unity
+    guid: 2ae0411852d264da39c3de1262270592
+  - enabled: 1
+    path: Assets/Scenes/LevelMenu/bl6.unity
+    guid: 282577ac0ac654b408f654d9c6ebe99e
+  - enabled: 1
+    path: Assets/Scenes/LevelMenu/bl7.unity
+    guid: c9d01b2a2b39848df9d0f811d9d88d0f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
