@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 8971707552668527621}
   - component: {fileID: 7528674439982231437}
   - component: {fileID: 8879533248024552802}
-  - component: {fileID: 8830919071329676337}
   - component: {fileID: 1312645687868867414}
   m_Layer: 0
   m_Name: Player 1
@@ -40,6 +39,7 @@ Transform:
   m_Children:
   - {fileID: 3928500500753112958}
   - {fileID: 1958870229701135144}
+  - {fileID: 5702682745473614343}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1536020765154042776
@@ -233,21 +233,6 @@ MonoBehaviour:
   MaxHealth: 50
   health: 0
   healthBar: {fileID: 0}
---- !u!114 &8830919071329676337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1059236852309732457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af0c42609953efa48ae5a3535badb0c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectile: {fileID: 8997910734432015845, guid: 379e4e4f5f02bfb4398805cf4d7b9314, type: 3}
-  shotPoint: {fileID: 1958870229701135144}
-  startTimeBtwShots: 0.25
 --- !u!95 &1312645687868867414
 Animator:
   serializedVersion: 7
@@ -270,6 +255,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &2425756665628151687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5702682745473614343}
+  m_Layer: 0
+  m_Name: ShotPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5702682745473614343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2425756665628151687}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.3, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7574369135155982847}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5098814073259516141
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,8 +295,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1958870229701135144}
+  - component: {fileID: 6222557098122066463}
   m_Layer: 0
-  m_Name: ShotPoint
+  m_Name: weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -301,6 +318,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7574369135155982847}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6222557098122066463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5098814073259516141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06e358eedcfc4b84bb07a2a81081feb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: -90
+  projectile: {fileID: 8997910734432015845, guid: 379e4e4f5f02bfb4398805cf4d7b9314, type: 3}
+  shotPoint: {fileID: 5702682745473614343}
+  startTimeBtwShots: 0.25
 --- !u!1 &5440497095444418614
 GameObject:
   m_ObjectHideFlags: 0

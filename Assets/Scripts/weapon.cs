@@ -9,11 +9,16 @@ public class weapon : MonoBehaviour
     public Transform shotPoint;
     private float timeBtwShots;
     private Animator _animator;
+    private SpriteRenderer spriteRenderer;
+    private float moveInput;
     public float startTimeBtwShots;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         _animator = GetComponent<Animator>();
+        
+
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -35,7 +40,12 @@ public class weapon : MonoBehaviour
         else{
             timeBtwShots -= Time.deltaTime;
         }
+        moveInput = Input.GetAxis("Horizontal");
 
+        if (moveInput > 0)
+            spriteRenderer.flipX = false;
+        else if (moveInput < 0)
+            spriteRenderer.flipX = true;
         
     }
     public void StopShoot()
