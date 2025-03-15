@@ -106,10 +106,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06e358eedcfc4b84bb07a2a81081feb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 0
+  offset: -90
   projectile: {fileID: 8997910734432015845, guid: 379e4e4f5f02bfb4398805cf4d7b9314, type: 3}
   shotPoint: {fileID: 212702911684513408}
-  startTimeBtwShots: 0
+  startTimeBtwShots: 0.25
 --- !u!1 &4680073074297069665
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,7 +292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0891044c8380c481097d0c4339fd8c4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PushSpeed: 10
+  PushSpeed: 15
   PushTime: 1
   PushCounter: 0
   PushFromRight: 0

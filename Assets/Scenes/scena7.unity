@@ -1154,7 +1154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2202354395013288869, guid: a94cd064ad1aa354bab85a1ba5b3659e, type: 3}
       propertyPath: MonsterSpeed
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3977186323992033793, guid: a94cd064ad1aa354bab85a1ba5b3659e, type: 3}
       propertyPath: cm
@@ -1467,6 +1467,18 @@ PrefabInstance:
     - target: {fileID: 1019923071714263708, guid: 4a9a9e8a2cc8a3544bf33f4e54d6cba2, type: 3}
       propertyPath: offset
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1019923071714263708, guid: 4a9a9e8a2cc8a3544bf33f4e54d6cba2, type: 3}
+      propertyPath: projectile
+      value: 
+      objectReference: {fileID: 8997910734432015845, guid: 379e4e4f5f02bfb4398805cf4d7b9314, type: 3}
+    - target: {fileID: 1019923071714263708, guid: 4a9a9e8a2cc8a3544bf33f4e54d6cba2, type: 3}
+      propertyPath: startTimeBtwShots
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679556258034596486, guid: 4a9a9e8a2cc8a3544bf33f4e54d6cba2, type: 3}
+      propertyPath: PushSpeed
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2283600616962578515, guid: 4a9a9e8a2cc8a3544bf33f4e54d6cba2, type: 3}
       propertyPath: healthBar
