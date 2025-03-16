@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: -90
-  projectile: {fileID: 8997910734432015845, guid: 379e4e4f5f02bfb4398805cf4d7b9314, type: 3}
+  projectile: {fileID: 1616646803856660394, guid: b491e5db094f24b4abf711a5a8753d2e, type: 3}
   shotPoint: {fileID: 212702911684513408}
   startTimeBtwShots: 0.25
 --- !u!212 &2597126516730909873
