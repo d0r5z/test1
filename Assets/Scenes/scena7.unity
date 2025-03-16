@@ -1971,30 +1971,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 12600389021161492, guid: a94cd064ad1aa354bab85a1ba5b3659e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 2202354395013288869, guid: a94cd064ad1aa354bab85a1ba5b3659e, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 6966820265442583213}
-    - target: {fileID: 2202354395013288869, guid: a94cd064ad1aa354bab85a1ba5b3659e, type: 3}
-      propertyPath: Distance
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 2202354395013288869, guid: a94cd064ad1aa354bab85a1ba5b3659e, type: 3}
-      propertyPath: MonsterSpeed
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 3977186323992033793, guid: a94cd064ad1aa354bab85a1ba5b3659e, type: 3}
       propertyPath: cm
       value: 
       objectReference: {fileID: 6966820265442583212}
-    - target: {fileID: 3977186323992033793, guid: a94cd064ad1aa354bab85a1ba5b3659e, type: 3}
-      propertyPath: damage
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 3977186323992033793, guid: a94cd064ad1aa354bab85a1ba5b3659e, type: 3}
       propertyPath: playerHealth
       value: 
@@ -2002,10 +1986,6 @@ PrefabInstance:
     - target: {fileID: 4266442272842320726, guid: a94cd064ad1aa354bab85a1ba5b3659e, type: 3}
       propertyPath: m_Name
       value: boss
-      objectReference: {fileID: 0}
-    - target: {fileID: 5839778484722699866, guid: a94cd064ad1aa354bab85a1ba5b3659e, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7705766948916437769, guid: a94cd064ad1aa354bab85a1ba5b3659e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2274,10 +2254,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1019923071714263708, guid: 4a9a9e8a2cc8a3544bf33f4e54d6cba2, type: 3}
-      propertyPath: projectile
-      value: 
-      objectReference: {fileID: 1616646803856660394, guid: b491e5db094f24b4abf711a5a8753d2e, type: 3}
     - target: {fileID: 2283600616962578515, guid: 4a9a9e8a2cc8a3544bf33f4e54d6cba2, type: 3}
       propertyPath: healthBar
       value: 

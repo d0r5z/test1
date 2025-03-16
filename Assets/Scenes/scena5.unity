@@ -867,10 +867,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6222557098122066463, guid: bd4ca5addb43d4af489a37f105130d59, type: 3}
-      propertyPath: offset
-      value: -90
-      objectReference: {fileID: 0}
     - target: {fileID: 7574369135155982847, guid: bd4ca5addb43d4af489a37f105130d59, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.13
@@ -2727,10 +2723,6 @@ PrefabInstance:
       propertyPath: cm
       value: 
       objectReference: {fileID: 1492436488}
-    - target: {fileID: 3854490024535758326, guid: 17ad9287084f10342a5752311627c764, type: 3}
-      propertyPath: damage
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 3854490024535758326, guid: 17ad9287084f10342a5752311627c764, type: 3}
       propertyPath: playerHealth
       value: 
