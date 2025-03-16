@@ -13,9 +13,6 @@ public class boss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(monsterHealth <= 0)
-        {
-            SceneManager.LoadScene(23);
-        }
+        
     }
 }
