@@ -540,9 +540,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5098814073259516141, guid: bd4ca5addb43d4af489a37f105130d59, type: 3}
-      propertyPath: m_Name
-      value: weapon
+    - target: {fileID: 6222557098122066463, guid: bd4ca5addb43d4af489a37f105130d59, type: 3}
+      propertyPath: offset
+      value: -45
       objectReference: {fileID: 0}
     - target: {fileID: 7574369135155982847, guid: bd4ca5addb43d4af489a37f105130d59, type: 3}
       propertyPath: m_LocalPosition.x
