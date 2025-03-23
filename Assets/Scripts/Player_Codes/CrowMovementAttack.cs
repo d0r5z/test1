@@ -25,7 +25,7 @@ public class CrowMovementAttack : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
-        FacingRight = false;
+        FacingRight = true;
         FacingLeft = false;
         CanGoRight = true;
         CanGoLeft = true;
