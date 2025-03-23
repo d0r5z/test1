@@ -1625,6 +1625,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 1.6
       objectReference: {fileID: 0}
+    - target: {fileID: 3170702438567029395, guid: 82ee99d1bc7865b4680d87d40d8dac90, type: 3}
+      propertyPath: m_text
+      value: WATCH OUT FOR LAVA!!
+      objectReference: {fileID: 0}
     - target: {fileID: 4651750210352563637, guid: 82ee99d1bc7865b4680d87d40d8dac90, type: 3}
       propertyPath: m_Name
       value: Image3
