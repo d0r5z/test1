@@ -2650,6 +2650,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1492436484}
+    - target: {fileID: 5840934514342359514, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
+      propertyPath: m_Size.y
+      value: 8.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 5840934514342359514, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.49
+      objectReference: {fileID: 0}
     - target: {fileID: 6643375621337461899, guid: 006f54d2a0da4de48a2497f79f280cde, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.658878
@@ -2715,6 +2723,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 643062346504730696, guid: 17ad9287084f10342a5752311627c764, type: 3}
+      propertyPath: MaxMonsterHealth
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 3662377645585386170, guid: 17ad9287084f10342a5752311627c764, type: 3}
       propertyPath: player
       value: 
@@ -2729,11 +2741,11 @@ PrefabInstance:
       objectReference: {fileID: 1492436486}
     - target: {fileID: 8225261501510050919, guid: 17ad9287084f10342a5752311627c764, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.23
+      value: 8.73
       objectReference: {fileID: 0}
     - target: {fileID: 8225261501510050919, guid: 17ad9287084f10342a5752311627c764, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.04
+      value: -5.54
       objectReference: {fileID: 0}
     - target: {fileID: 8225261501510050919, guid: 17ad9287084f10342a5752311627c764, type: 3}
       propertyPath: m_LocalPosition.z

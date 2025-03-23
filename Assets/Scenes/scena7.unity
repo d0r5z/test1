@@ -2254,6 +2254,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 212702911684513408, guid: 4a9a9e8a2cc8a3544bf33f4e54d6cba2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 212702911684513408, guid: 4a9a9e8a2cc8a3544bf33f4e54d6cba2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679556258034596486, guid: 4a9a9e8a2cc8a3544bf33f4e54d6cba2, type: 3}
+      propertyPath: shotPoint
+      value: 
+      objectReference: {fileID: 6966820265442583214}
+    - target: {fileID: 1679556258034596486, guid: 4a9a9e8a2cc8a3544bf33f4e54d6cba2, type: 3}
+      propertyPath: projectile
+      value: 
+      objectReference: {fileID: 1616646803856660394, guid: b491e5db094f24b4abf711a5a8753d2e, type: 3}
+    - target: {fileID: 1679556258034596486, guid: 4a9a9e8a2cc8a3544bf33f4e54d6cba2, type: 3}
+      propertyPath: projectilelewo
+      value: 
+      objectReference: {fileID: 4128500314047303763, guid: 047537effc31be843b6d98b9d27d77ff, type: 3}
     - target: {fileID: 2283600616962578515, guid: 4a9a9e8a2cc8a3544bf33f4e54d6cba2, type: 3}
       propertyPath: healthBar
       value: 
@@ -2336,6 +2356,11 @@ MonoBehaviour:
 --- !u!1 &6966820265442583213 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4680073074297069665, guid: 4a9a9e8a2cc8a3544bf33f4e54d6cba2, type: 3}
+  m_PrefabInstance: {fileID: 6966820265442583210}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6966820265442583214 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 212702911684513408, guid: 4a9a9e8a2cc8a3544bf33f4e54d6cba2, type: 3}
   m_PrefabInstance: {fileID: 6966820265442583210}
   m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
