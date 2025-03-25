@@ -1,35 +1,35 @@
 using UnityEngine;
 
-public class PociskBoss : MonoBehaviour
+public class Pocisklewo : MonoBehaviour
 {
-    public float speed;
-    public float lifeTime;
+     public float speedlewo;
+    public float lifeTimelewo;
     public float damage;
 
-    public float ProjectileDistance;
-    public LayerMask whatIsSolid;
+    public float ProjectileDistancelewo;
+    public LayerMask whatIsSolidlewo;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Invoke("DestroyProjectile", lifeTime);
+        Invoke("DestroyProjectile", lifeTimelewo);
     }
 
     // Update is called once per frame
     void Update()
     {
-        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.right, ProjectileDistance, whatIsSolid);
+        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, -transform.right, ProjectileDistancelewo, whatIsSolidlewo);
         if (hitInfo.collider != null)
         {
             if(hitInfo.collider.CompareTag("Enemy"))
             {
                 Debug.Log("ENEMY MUST TAKE DAMAGE !");
-                hitInfo.collider.GetComponent<bossHealth>().TakeMonsterDamage(damage);
+                hitInfo.collider.GetComponent<monsterHealth>().TakeMonsterDamage(damage);
             }
             DestroyProjectile();
         }
 
-        transform.Translate(transform.right * speed * Time.deltaTime);
+        transform.Translate(-transform.right * speedlewo * Time.deltaTime);
     }
 
     void DestroyProjectile()
@@ -37,4 +37,3 @@ public class PociskBoss : MonoBehaviour
         Destroy(gameObject);
     }
 }
-

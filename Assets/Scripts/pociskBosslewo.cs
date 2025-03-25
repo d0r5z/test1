@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PociskBoss : MonoBehaviour
+public class PociskBosslewo : MonoBehaviour
 {
     public float speed;
     public float lifeTime;
@@ -18,7 +18,7 @@ public class PociskBoss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.right, ProjectileDistance, whatIsSolid);
+        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, -transform.right, ProjectileDistance, whatIsSolid);
         if (hitInfo.collider != null)
         {
             if(hitInfo.collider.CompareTag("Enemy"))
@@ -29,7 +29,7 @@ public class PociskBoss : MonoBehaviour
             DestroyProjectile();
         }
 
-        transform.Translate(transform.right * speed * Time.deltaTime);
+        transform.Translate(-transform.right * speed * Time.deltaTime);
     }
 
     void DestroyProjectile()

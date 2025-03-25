@@ -3,7 +3,7 @@ using UnityEngine;
 public class monsterDamage : MonoBehaviour
 {
     private Rigidbody2D rb;
-    public CrowMovement cm;
+    public CrowMovementAttack cm;
     private Animator attackanimator;
     [SerializeField] public int damage;
     public playerHealth playerHealth;
